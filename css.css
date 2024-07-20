@@ -1,0 +1,200 @@
+/* The switch - the box around the slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    left: 1460px;
+    right: -1460px;
+    bottom: 0px;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    right: 0px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+body {
+    background-color: #048c8f;
+    color: white;
+  }
+  
+.white-mode {
+    background-color: #00FFFF;
+    color: black;
+    
+  }
+h2 {
+  position: absolute;
+  left: 1460px;
+}
+h1 {
+  position: absolute;
+  left: 10%;
+  top: -4%;
+  font-family: "Arial"
+}
+#txt1 {
+  position: absolute;
+  left: 22%;
+  font-size: 25px;
+  top: 50%
+}
+.card{
+    position: relative;
+    left: 11.5%;
+    width: 1155px;
+    height: 512px;
+    background-color: #023020;
+    border-radius: 40px;
+}
+#discord-1{
+  position: absolute;
+  left: 10%;
+  top: 70%;
+}
+#discord-2{
+  position: absolute;
+  left: 10%;
+  top: 70%;
+}
+#txt2{
+  position: absolute;
+  left: 10%;
+  top: 87%;
+}
+
+#youtube-1{
+  position: absolute;
+  left: 30%;
+  top: 70%;
+}
+#youtube-2{
+  position: absolute;
+  left: 30%;
+  top: 70%;
+}
+#txt3 {
+  position: absolute;
+  left: 30%;
+  top: 87%;
+}
+#malware-1{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+}
+#malware-2{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+}
+#txt4 {
+  position: absolute;
+  left: 48%;
+  top: 87%;
+}
+
+#vmware-1{
+  position: absolute;
+  left: 75%;
+  top: 70%;
+}
+#vmware-2{
+  position: absolute;
+  left: 75%;
+  top: 70%;
+}
+#txt5 {
+  position: absolute;
+  left: 65%;
+  top: 87%;
+}
+h4{
+  font-weight: bolder;
+  font-size: 24px;
+}
+#txt6 {
+  position: absolute;
+  left: 10%;
+  top: 2.5%;
+}
+#txt7 {
+  position: absolute;
+  left: 10%;
+  top: 40px;
+}
+#txt8 {
+  position: absolute;
+  left: 10%;
+  top: 70px;
+}
+#txt9 {
+  position: absolute;
+  left: 60%;
+  top: 2.5%;
+}
+#txt10{
+  position: absolute;
+  left: 60%;
+  top: 10%;
+}
+#txt11{
+  position: absolute;
+  left: 60%;
+  top: 20%;
+}
+#txt12{
+  position: absolute;
+  left: 60%;
+  top: 30%;
+}
