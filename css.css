@@ -96,6 +96,7 @@ h1 {
     height: 512px;
     background-color: #023020;
     border-radius: 40px;
+    box-shadow: 0px 0px 30px black;
 }
 #discord-1{
   position: absolute;
